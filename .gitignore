@@ -1,0 +1,4 @@
+db/*
+!db/placeholder.txt
+phpbb/*
+!phpbb/placeholder.txt

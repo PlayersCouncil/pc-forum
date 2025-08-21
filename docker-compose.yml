@@ -1,0 +1,57 @@
+services:
+  phpbb:
+    env_file:
+      - .env
+    container_name: ${APP_CONTAINER_NAME}
+    image: phpbb_app
+    build: 
+      context: .
+      dockerfile: phpbb.Dockerfile
+    restart: unless-stopped
+    ports:
+        # target means in the container
+      - target: 80
+        # published is what's on the host machine
+        published: "${APP_PORT}"
+    volumes:
+      - type: bind
+        source: ./phpbb
+        target: /var/www/html/phpbb
+        consistency: consistent
+    networks:
+      phpbb_net_1:
+        ipv4_address: ${APP_IP}
+    depends_on:
+      - db
+    tty: true
+
+  db:
+    env_file:
+      - .env
+    container_name: ${DB_CONTAINER_NAME}
+    image: phpbb_db
+    build: 
+      context: .
+      dockerfile: ./phpbb_db.Dockerfile
+    ports:
+        # target means in the container
+      - target: 3306
+        # published is what's on the host machine
+        published: "${DB_PORT}"
+    restart: unless-stopped
+    volumes:
+       - type: bind
+         source: ./db
+         target: /var/lib/mysql
+         consistency: consistent
+    networks:
+      phpbb_net_1:
+        ipv4_address: ${DB_IP}
+
+networks:
+  phpbb_net_1:
+    ipam:
+      driver: default
+      config:
+        - subnet: 172.30.${SERVID}.0/24
+    attachable: true
