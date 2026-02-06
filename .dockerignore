@@ -1,0 +1,10 @@
+# Live data directories (bind-mounted at runtime, not needed in image)
+phpbb/
+db/
+
+# Git
+.git/
+
+# Backups and archives
+*.tar.gz
+/*.zip
