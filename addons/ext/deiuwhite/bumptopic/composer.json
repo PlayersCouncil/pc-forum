@@ -1,0 +1,34 @@
+{
+    "name": "deiuwhite/bumptopic",
+    "type": "phpbb-extension",
+    "description": "Allow bumping of topic without checking if it's already bumped. (Bump interval is still being checked)",
+    "homepage": "https://metin2.forum",
+    "version": "1.0.0",
+    "time": "2025-04-10",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Deiu White",
+            "email": "admin@metin2.forum",
+            "homepage": "https://metin2.forum",
+            "role": "Administrator"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "composer/installers": "~1.0.0",
+        "phpbb/phpbb": ">=3.3.0,<4.0.0@dev"
+    },
+    "extra": {
+        "display-name": "Bump Topic Override",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.3.0,<4.0.0@dev"
+        },
+        "version-check": {
+            "host": "www.phpbb.com",
+            "directory": "/customise/db/extension/bump_topic_override",
+            "filename": "version_check",
+            "ssl": true
+        }
+    }
+}

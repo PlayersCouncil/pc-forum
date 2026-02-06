@@ -1,0 +1,10 @@
+Subject: Prijava zasebnega sporočila - "{SUBJECT}"
+
+Pozdravljeni, {USERNAME},
+
+Zasebno sporočilo z naslovom "{SUBJECT}" avtorja "{AUTHOR_NAME}" na spletni strani "{SITENAME}" je bilo prijavljeno.
+
+Če želite videti prijavo, kliknite na spodnjo povezavo:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

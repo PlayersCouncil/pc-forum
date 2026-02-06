@@ -1,0 +1,10 @@
+Subject: Skundas apie asmeninę žinutę – „{SUBJECT}“
+
+Sveiki, {USERNAME},
+
+Gavote šį pranešimą, nes buvo gautas skundas apie vartotojo „{AUTHOR_NAME}“ pranešimą „{SUBJECT}“ konferencijoje „{SITENAME}“.
+
+Jei norite peržiūrėti skundą, spustelėkite šią nuorodą:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

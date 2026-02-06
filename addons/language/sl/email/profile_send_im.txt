@@ -1,0 +1,13 @@
+
+Pozdravljeni, {TO_USERNAME},
+
+Sledeče e-sporočilo vam pošilja uporabnik {FROM_USERNAME} v vaš uporabniški račun na spletni strani "{SITENAME}". Če menite, da je to e-sporočilo spam, vsebuje neprimerno vsebino ali kaj drugega, prosimo kontaktirajte administratorja foruma na naslednji e-naslov:
+
+{BOARD_CONTACT}
+
+Vključen bo celoten email. Pomnite, da odgovor bo bil poslan iz IM računa, ki je naveden na forumu.
+
+Sporočilo
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

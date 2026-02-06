@@ -1,0 +1,19 @@
+Subject: phpBB nameščen
+
+Čestitamo,
+
+Usprešno ste namestili phpBB.
+
+To e-sporočilo vsebuje pomembne podatke o vaši namestitvi, zato jih shranite na varno mesto. Geslo je zakodirano v bazi, zato ga ne morete povrniti, lahko pa zahtevate novega. V primeru, če ga pozabite, ga lahko ponovno nastavite z naslovom elektronske pošte vašega računa.
+
+----------------------------
+Uporabniško ime: {USERNAME}
+
+Spletni naslov: {U_BOARD}
+----------------------------
+
+Vse splošne informacije o namestitvi in pomoči lahko najdete na spletnem naslovu - https://www.phpbb.com/support/
+
+Priporočamo, da forum redno nadgrajujete, saj s tem ohranite njegovo varnost. Da boste pa še bolj na tekočem s posodobitvami, obstaja na zgornjem naslovu mailing lista.
+
+{EMAIL_SIG}

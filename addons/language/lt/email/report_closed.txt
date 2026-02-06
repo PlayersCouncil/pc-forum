@@ -1,0 +1,13 @@
+Subject: Raportas "{POST_SUBJECT}" uždarytas
+
+Sveiki, {USERNAME},
+
+Jūs gavote šį laišką, nes "{SITENAME}" diskusijų moderatorius arba administratorius uždarė raportą "{POST_SUBJECT}" autoriaus "{AUTHOR_NAME}", kurį užpildėte, temoje "{TOPIC_TITLE}". Jeigu turite dar kokių nors klausimų, susisiekite su {CLOSER_NAME} asmenine žinute.
+
+Savo pranešimą galite peržiūrėti spustelėję toliau pateiktą nuorodą:
+
+{U_VIEW_POST}
+
+Jūs paprašėte, kad jums būtų pranešta apie šį įvykį, atminkite, kad visada galite pasirinkti, kad jums nebūtų pranešta apie uždarytus pranešimus, pakeisdami atitinkamą nustatymą savo profilyje.
+
+{EMAIL_SIG}

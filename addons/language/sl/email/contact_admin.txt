@@ -1,0 +1,23 @@
+
+Pozdravljen {TO_USERNAME},
+
+Spodnje e-sporočilo ste prejeli preko kontaktnega obrazca na spletni strani "{SITENAME}".
+
+<!-- IF S_IS_REGISTERED -->
+Sporočilo je bilo poslano od registriranega uporabnika.
+Uporabniško ime: {FROM_USERNAME}
+E-pošta: {FROM_EMAIL_ADDRESS}
+IP naslov: {FROM_IP_ADDRESS}
+Profil: {U_FROM_PROFILE}
+<!-- ELSE -->
+Sporočila je bilo poslano od gosta strani in vsebuje naslednje kontaktne podatke:
+Ime: {FROM_USERNAME}
+E-pošta: {FROM_EMAIL_ADDRESS}
+IP naslov: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+Vsebina sporočila
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

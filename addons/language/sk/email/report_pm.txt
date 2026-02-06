@@ -1,0 +1,10 @@
+Subject: Sťažnosť na súkromnú správu - "{SUBJECT}"
+
+Dobrý deň {USERNAME},
+
+Táto správa vám bola doručená pretože bola odoslaná sťažnosť na súkromnú správu s predmetom "{SUBJECT}" od používateľa "{AUTHOR_NAME}" na "{SITENAME}".
+
+Odkaz na sťažnosť:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

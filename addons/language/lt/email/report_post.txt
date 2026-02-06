@@ -1,0 +1,13 @@
+Subject: Skundas apie pranešimą — «{TOPIC_TITLE}»
+
+Sveiki, {USERNAME},
+
+Gavote šį pranešimą, nes buvo gautas skundas apie pranešimą „{POST_SUBJECT}“ konferencijoje „{SITENAME}“.
+
+Jei norite peržiūrėti skundą, spustelėkite šią nuorodą:
+{U_VIEW_REPORT}
+
+Jei norite peržiūrėti pranešimą, spustelėkite šią nuorodą:
+{U_VIEW_POST}
+
+{EMAIL_SIG}

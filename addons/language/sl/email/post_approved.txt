@@ -1,0 +1,13 @@
+Subject: Prispevek odobren - "{POST_SUBJECT}"
+
+Pozdravljeni, {USERNAME},
+
+Vaša objava "{POST_SUBJECT}" na spletni strani "{SITENAME}" je odobrena s strani moderatorja oz. administratorja.
+
+Če želite videti svoj prispevek, kliknite na spodnjo povezavo:
+{U_VIEW_POST}
+
+Če želite videti temo, kliknite na spodnjo povezavo:
+{U_VIEW_TOPIC}
+
+{EMAIL_SIG}

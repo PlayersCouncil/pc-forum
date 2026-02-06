@@ -1,0 +1,19 @@
+Subject: Dobrodošli na "{SITENAME}"
+
+{WELCOME_MSG}
+
+Prosim, shranite pošto za svojo evidenco. Informacije vašega računa:
+
+----------------------------
+Uporabniško ime: {USERNAME}
+----------------------------
+
+Vaše geslo je bilo uspešno shranjeno v naši bazi in ne morete ga pridobiti. V primeru, če ga pozabite, ga lahko ponovno nastavite z naslovom elektronske pošte vašega računa.
+
+Pritisnite spodnjo povezavo za aktivacijo računa:
+
+{U_ACTIVATE}
+
+Hvala za registracijo.
+
+{EMAIL_SIG}

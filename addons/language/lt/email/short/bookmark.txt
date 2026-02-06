@@ -1,0 +1,13 @@
+Subject: Pranešimas apie atsakymą — «{TOPIC_TITLE}»
+
+Sveiki, {USERNAME}!
+
+Gavote šį pranešimą, nes konferencijoje „{SITENAME}“, kurią pažymėjote nuo paskutinio apsilankymo, temoje „{TOPIC_TITLE}“ pasirodė naujas pranešimas. Gautus atsakymus galite perskaityti paspaudę nuorodą; negausite naujų pranešimų, kol neperžiūrėsite temos.
+
+Jei norite peržiūrėti naujausią pranešimą po paskutinio apsilankymo, apsilankykite šioje nuorodoje:
+{U_NEWEST_POST}
+
+Jei nebenorite gauti pranešimų apie atsakymus į pažymėtas temas, pakeiskite pranešimų nustatymus:
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

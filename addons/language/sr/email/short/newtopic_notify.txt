@@ -1,0 +1,11 @@
+Subject: Нова тема у "{FORUM_NAME}"
+
+Поздрав {USERNAME},
+
+Форум "{FORUM_NAME}" је добио нову тему "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' --> од {AUTHOR_NAME}<!-- ENDIF --> од ваше последње посете "{SITENAME}". Нећете добијати више обавештења док не посетите форум.
+{U_FORUM}
+
+Уколико више не желите да пратите овај форум можете кликнути на следећу везу:
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

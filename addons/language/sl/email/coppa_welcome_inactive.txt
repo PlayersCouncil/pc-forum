@@ -1,0 +1,42 @@
+Subject: Dobrodošli na "{SITENAME}"
+
+{WELCOME_MSG}
+
+S privolitvijo akta COPPA je vaš račun trenutno neaktiven.
+
+Prosimo, natisnite to sporočilo in naj ga vaš starš ali skrbnik podpiše ter pripiše datum. Nato ga pošljite po faksu na:
+
+{FAX_INFO}
+
+ALI preko navadne pošte na naslov:
+
+{MAIL_INFO}
+
+------------------------------ ODREŽI TUKAJ ------------------------------
+Dovoljujem udeležbo na spletni strani "{SITENAME}" - {U_BOARD}
+
+Uporabniško ime: {USERNAME}
+E-mail: {EMAIL_ADDRESS}
+
+PREGLEDAL/A SEM INFROMACIJE, KI JIH JE VNESEL MOJ OTROK, IN S PODPISOM DOVOLJUJEM, DA "{SITENAME}" TE INFORMACIJE SHRANI. 
+ZAVEDAM SE, DA SO TE INFORMACIJE LAHKO KADARKOLI SPREMENJENE Z VNOSOM GESLA. 
+ZAVEDAM SE, DA LAHKO KADARKOLI ZAPROSIM, DA SE INFORMACIJE ODSTRANIJO S STRANI "{SITENAME}".
+
+
+Starš ali skrbnik 
+(čitljivo napišite ime in priimek): _____________________
+
+(podpis): __________________ 
+
+Datum: _______________
+
+------------------------------ ODREŽI TUKAJ ------------------------------
+
+
+Ko bo administrator zgoraj navedeno prejel preko faksa ali navadne pošte, bo vaš račun aktiviran.
+
+Prosimo, ne pozabite svojega gesla, saj je v naši bazi zakodirano in vam ga v primeru, da ga pozabite oz. izgubite, ne bomo mogli posredovati. Če izgubite geslo, lahko zaprosite za novega.
+
+Hvala za vašo registracijo.
+
+{EMAIL_SIG}

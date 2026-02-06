@@ -1,0 +1,18 @@
+Subject: Nov prispevek v "{FORUM_NAME}"
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
+
+Pozdravljeni, {USERNAME},
+
+"{FORUM_NAME}" je prejel nov odgovor na temo "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' --> avtorja {AUTHOR_NAME}<!-- ENDIF --> odkar ste zadnjič obiskali "{SITENAME}". Novih obvestil ne boste prejemali dokler ne obiščete temo oz. forum.
+{U_NEWEST_POST}
+
+Če si želite ogledati temo, kliknite na spodnjo povezavo:
+{U_TOPIC}
+
+Če si želite ogledati forum, kliknite na spodnjo povezavo:
+{U_FORUM}
+
+Če ne želite več prejemati sporočil o novih prispevkih, kliknite na spodnjo povezavo:
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

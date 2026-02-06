@@ -1,0 +1,11 @@
+Subject: Prispevek zavrnjen - "{POST_SUBJECT}"
+
+Pozdravljeni, {USERNAME},
+
+Vaš prispevek "{POST_SUBJECT}" na spletni strani "{SITENAME}" je bil zavrnjen s strani moderatorja oz. administratorja.
+
+Spodaj je naveden razlog za zavrnitev prispevka:
+
+{REASON}
+
+{EMAIL_SIG}

@@ -1,0 +1,30 @@
+.gtrans {
+	float: right !important;
+	margin-right: 10px !important;
+	padding: 5px !important;
+}
+
+.gt_switcher_wrapper {
+	position: relative !important;
+	z-index: 1 !important;
+}
+
+.gt_option {
+	position: absolute !important;
+}
+
+.gt_selected {
+	border-radius: 6px;
+}
+
+.rtl .gtrans {
+	float: left !important;
+	margin-left: 10px !important;
+	padding: 5px !important;
+}
+
+/* prevents navbar notification dropdown from being obscured */
+
+.notification_list {
+	z-index: 2 !important;
+}

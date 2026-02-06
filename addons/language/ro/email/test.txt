@@ -1,0 +1,13 @@
+Subject: phpBB este configurat corect pentru a trimite e-mailuri
+
+Salut {USERNAME},
+
+Felicitări. Dacă primiți acest email, înseamnă că phpBB este configurat corespunzător pentru a trimite e-mailuri.
+
+<!-- IF MESSAGE -->
+{MESSAGE}
+
+<!-- ENDIF -->
+În cazul în care aveți nevoie de asistență, vă rugăm să vizitați forumurile de ajutor - https://www.phpbb.ro/
+
+{EMAIL_SIG}

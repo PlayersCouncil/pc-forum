@@ -1,0 +1,138 @@
+<!-- INCLUDE overall_header.html -->
+    <h1>{L_ACP_RIGHTRANDOMIMAGE_CONFIG}</h1>
+
+    <p>{L_ACP_RIGHTRANDOMIMAGE_CONFIG_EXPLAIN}</p>
+
+    <form id="acp_quotes_config" method="post" action="{U_ACTION}">
+   
+    <fieldset>
+    <legend>{L_ACP_RIGHTRANDOMIMAGE_CONFIG_SET}</legend>
+    <dl>
+        <dt><label for="rightrandomimage_enable">{L_RIGHTRANDOMIMAGE_ENABLE}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_ENABLE_EXPLAIN}</span></dt>
+        <dd><label><input type="radio" class="radio" name="rightrandomimage_enable" value="1"<!-- IF RIGHTRANDOMIMAGE_ENABLE --> id="rightrandomimage_enable" checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+        <label><input type="radio" class="radio" name="rightrandomimage_enable" value="0"<!-- IF not RIGHTRANDOMIMAGE_ENABLE --> id="rightrandomimage_enable" checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+    </dl>
+    <dl>
+        <dt><label for="rightrandomimage_search">{L_RIGHTRANDOMIMAGE_SEARCH}{L_COLON}</label><br />
+          <span>{L_RIGHTRANDOMIMAGE_SEARCH_EXPLAIN}</span></dt>
+        <dd><label><input type="radio" class="radio" name="rightrandomimage_search" value="1"<!-- IF RIGHTRANDOMIMAGE_SEARCH --> id="rightrandomimage_search" checked="checked"<!-- ENDIF --> /> {L_YES}</label>
+        <label><input type="radio" class="radio" name="rightrandomimage_search" value="0"<!-- IF not RIGHTRANDOMIMAGE_SEARCH --> id="rightrandomimage_search" checked="checked"<!-- ENDIF --> /> {L_NO}</label></dd>
+    </dl>
+
+    <dl>
+        <dt><label for="rightrandomimage_number">{L_RIGHTRANDOMIMAGE_NUMBER_EXPLAIN}{L_COLON}</label></dt>
+        <dd>
+            <select name="rightrandomimage_number" id="rightrandominage_number">
+                <option value="1"<!-- IF RIGHTRANDOMIMAGE_NUMBER eq '1' --> selected="selected"<!-- ENDIF -->>{L_RIGHTRANDOMIMAGE_NUMBER_ONE}</option>
+                <option value="2"<!-- IF RIGHTRANDOMIMAGE_NUMBER eq '2' --> selected="selected"<!-- ENDIF -->>{L_RIGHTRANDOMIMAGE_NUMBER_TWO}</option>
+                <option value="3"<!-- IF RIGHTRANDOMIMAGE_NUMBER eq '3' --> selected="selected"<!-- ENDIF -->>{L_RIGHTRANDOMIMAGE_NUMBER_THREE}</option>
+                <option value="4"<!-- IF RIGHTRANDOMIMAGE_NUMBER eq '4' --> selected="selected"<!-- ENDIF -->>{L_RIGHTRANDOMIMAGE_NUMBER_FOUR}</option>
+                <option value="5"<!-- IF RIGHTRANDOMIMAGE_NUMBER eq '5' --> selected="selected"<!-- ENDIF -->>{L_RIGHTRANDOMIMAGE_NUMBER_FIVE}</option>
+                <option value="6"<!-- IF RIGHTRANDOMIMAGE_NUMBER eq '6' --> selected="selected"<!-- ENDIF -->>{L_RIGHTRANDOMIMAGE_NUMBER_SIX}</option>
+            </select>
+        </dd>
+    </dl>
+
+    <dl>
+    <dt><label for="rightrandomimage_open">{L_RIGHTRANDOMIMAGE_OPEN}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_OPEN_EXPLAIN}</span></dt>
+        <dd>
+            <select name="rightrandomimage_open" id="rightrandominage_open">
+                <option value="1"<!-- IF RIGHTRANDOMIMAGE_OPEN eq '1' --> selected="selected"<!-- ENDIF -->>{L_RIGHTRANDOMIMAGE_URL_NOTHING}</option>
+                <option value="2"<!-- IF RIGHTRANDOMIMAGE_OPEN eq '2' --> selected="selected"<!-- ENDIF -->>{L_RIGHTRANDOMIMAGE_URL_SAME}</option>
+                <option value="3"<!-- IF RIGHTRANDOMIMAGE_OPEN eq '3' --> selected="selected"<!-- ENDIF -->>{L_RIGHTRANDOMIMAGE_URL_NEW}</option>
+            </select>
+        </dd>
+    </dl>
+
+    <dl>
+        <dt><label for="rightrandomimage_resize">{L_RIGHTRANDOMIMAGE_RESIZE}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_RESIZE_EXPLAIN}</span></dt>
+        <dd><input name="rightrandomimage_resize" type="text" id="rightrandomimage_resize" value="{RIGHTRANDOMIMAGE_RESIZE}" size="4" maxlength="4" /></dd>
+    </dl>
+
+    <p class="submit-buttons">
+        <input type="hidden" name="action" value="save" />
+
+        <input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+        <input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+        {S_FORM_TOKEN}
+    </p>
+    </p>
+    </p>
+
+    <hr>
+
+    <dl>
+        <dt><label for="rightrandomimage_image_url_1">{L_RIGHTRANDOMIMAGE_IMAGE_URL_1}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_IMAGE_URL_EXPLAIN_1}</span></dt>
+        <dd><input name="rightrandomimage_image_url_1" type="text" id="rightrandomimage_image_url_1" value="{RIGHTRANDOMIMAGE_IMAGE_URL_1}"  placeholder="{L_RIGHTRANDOMIMAGE_IMAGE_URL_PLACEHOLDER_1}" maxlength="255" /></dd>
+    </dl>
+    <dl>
+        <dt><label for="rightrandomimage_image_link_1">{L_RIGHTRANDOMIMAGE_IMAGE_LINK_1}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_IMAGE_LINK_EXPLAIN_1}</span></dt>
+        <dd><input name="rightrandomimage_image_link_1" type="text" id="rightrandomimage_image_link_1" value="{RIGHTRANDOMIMAGE_IMAGE_LINK_1}"  placeholder="{L_RIGHTRANDOMIMAGE_IMAGE_LINK_PLACEHOLDER_1}" maxlength="255" /></dd>
+    </dl>
+   <dl>
+        <dt><label for="rightrandomimage_image_url_2">{L_RIGHTRANDOMIMAGE_IMAGE_URL_2}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_IMAGE_URL_EXPLAIN_2}</span></dt>
+        <dd><input name="rightrandomimage_image_url_2" type="text" id="rightrandomimage_image_url_2" value="{RIGHTRANDOMIMAGE_IMAGE_URL_2}"  placeholder="{L_RIGHTRANDOMIMAGE_IMAGE_URL_PLACEHOLDER_2}" maxlength="255" /></dd>
+    </dl>
+    <dl>
+        <dt><label for="rightrandomimage_image_link_2">{L_RIGHTRANDOMIMAGE_IMAGE_LINK_2}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_IMAGE_LINK_EXPLAIN_2}</span></dt>
+        <dd><input name="rightrandomimage_image_link_2" type="text" id="rightrandomimage_image_link_2" value="{RIGHTRANDOMIMAGE_IMAGE_LINK_2}"  placeholder="{L_RIGHTRANDOMIMAGE_IMAGE_LINK_PLACEHOLDER_2}" maxlength="255" /></dd>
+    </dl>
+    <dl>
+        <dt><label for="rightrandomimage_image_url_3">{L_RIGHTRANDOMIMAGE_IMAGE_URL_3}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_IMAGE_URL_EXPLAIN_3}</span></dt>
+        <dd><input name="rightrandomimage_image_url_3" type="text" id="rightrandomimage_image_url_3" value="{RIGHTRANDOMIMAGE_IMAGE_URL_3}"  placeholder="{L_RIGHTRANDOMIMAGE_IMAGE_URL_PLACEHOLDER_3}" maxlength="255" /></dd>
+    </dl>
+    <dl>
+        <dt><label for="rightrandomimage_image_link_3">{L_RIGHTRANDOMIMAGE_IMAGE_LINK_3}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_IMAGE_LINK_EXPLAIN_3}</span></dt>
+        <dd><input name="rightrandomimage_image_link_3" type="text" id="rightrandomimage_image_link_3" value="{RIGHTRANDOMIMAGE_IMAGE_LINK_3}"  placeholder="{L_RIGHTRANDOMIMAGE_IMAGE_LINK_PLACEHOLDER_3}" maxlength="255" /></dd>
+    </dl>
+    <dl>
+        <dt><label for="rightrandomimage_image_url_4">{L_RIGHTRANDOMIMAGE_IMAGE_URL_4}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_IMAGE_URL_EXPLAIN_4}</span></dt>
+        <dd><input name="rightrandomimage_image_url_4" type="text" id="rightrandomimage_image_url_4" value="{RIGHTRANDOMIMAGE_IMAGE_URL_4}"  placeholder="{L_RIGHTRANDOMIMAGE_IMAGE_URL_PLACEHOLDER_4}" maxlength="255" /></dd>
+    </dl>
+    <dl>
+        <dt><label for="rightrandomimage_image_link_4">{L_RIGHTRANDOMIMAGE_IMAGE_LINK_4}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_IMAGE_LINK_EXPLAIN_4}</span></dt>
+        <dd><input name="rightrandomimage_image_link_4" type="text" id="rightrandomimage_image_link_4" value="{RIGHTRANDOMIMAGE_IMAGE_LINK_4}"  placeholder="{L_RIGHTRANDOMIMAGE_IMAGE_LINK_PLACEHOLDER_4}" maxlength="255" /></dd>
+    </dl>
+    <dl>
+        <dt><label for="rightrandomimage_image_url_5">{L_RIGHTRANDOMIMAGE_IMAGE_URL_5}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_IMAGE_URL_EXPLAIN_5}</span></dt>
+        <dd><input name="rightrandomimage_image_url_5" type="text" id="rightrandomimage_image_url_5" value="{RIGHTRANDOMIMAGE_IMAGE_URL_5}"  placeholder="{L_RIGHTRANDOMIMAGE_IMAGE_URL_PLACEHOLDER_5}" maxlength="255" /></dd>
+    </dl>
+    <dl>
+        <dt><label for="rightrandomimage_image_link_5">{L_RIGHTRANDOMIMAGE_IMAGE_LINK_5}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_IMAGE_LINK_EXPLAIN_5}</span></dt>
+        <dd><input name="rightrandomimage_image_link_5" type="text" id="rightrandomimage_image_link_5" value="{RIGHTRANDOMIMAGE_IMAGE_LINK_5}"  placeholder="{L_RIGHTRANDOMIMAGE_IMAGE_LINK_PLACEHOLDER_5}" maxlength="255" /></dd>
+    </dl>
+    <dl>
+        <dt><label for="rightrandomimage_image_url_6">{L_RIGHTRANDOMIMAGE_IMAGE_URL_6}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_IMAGE_URL_EXPLAIN_6}</span></dt>
+        <dd><input name="rightrandomimage_image_url_6" type="text" id="rightrandomimage_image_url_6" value="{RIGHTRANDOMIMAGE_IMAGE_URL_6}"  placeholder="{L_RIGHTRANDOMIMAGE_IMAGE_URL_PLACEHOLDER_6}" maxlength="255" /></dd>
+    </dl>
+    <dl>
+        <dt><label for="rightrandomimage_image_link_6">{L_RIGHTRANDOMIMAGE_IMAGE_LINK_6}{L_COLON}</label><br />
+        <span>{L_RIGHTRANDOMIMAGE_IMAGE_LINK_EXPLAIN_6}</span></dt>
+        <dd><input name="rightrandomimage_image_link_6" type="text" id="rightrandomimage_image_link_6" value="{RIGHTRANDOMIMAGE_IMAGE_LINK_6}"  placeholder="{L_RIGHTRANDOMIMAGE_IMAGE_LINK_PLACEHOLDER_6}" maxlength="255" /></dd>
+    </dl>
+
+    <p class="submit-buttons">
+    <input type="hidden" name="action" value="save" />
+
+    <input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+    <input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+    {S_FORM_TOKEN}
+    </p>
+    </fieldset>
+    </form>
+
+<!-- INCLUDE overall_footer.html -->

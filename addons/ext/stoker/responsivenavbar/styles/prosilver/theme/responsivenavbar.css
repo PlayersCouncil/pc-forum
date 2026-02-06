@@ -1,0 +1,82 @@
+@media (max-width: 700px) {
+	#wrap {
+		margin-top: 60px;
+		margin-bottom: 30px;
+	}
+	/* Navbar Header*/
+	#page-header .navbar {
+		display: block;
+		position: fixed;
+		max-height:62px;
+		top: 0;
+		left: 0;
+		right: 0;
+		border-radius: 0;
+		border-bottom: 1px solid #808080;
+		z-index: 500;
+		padding: 0;
+		margin: 0;
+	}
+	a.header-avatar img {
+		border-radius:50%;
+	}
+	#nav-breadcrumbs {
+		height: 26px;
+		font-size: 1.1em;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		padding: 0px 8px;
+	}
+	ul#nav-main {
+		font-size: 1.3em;
+		line-height: 1.6em;
+		padding: 0px 8px;
+	}
+	ul#nav-main i.fa-bars, i.fa-bell, i.fa-inbox, i.fa-power-off, i.fa-pencil-square-o {
+		font-size: 1.4em;
+		line-height: 1.6em;
+	}
+	ul#nav-main ul.dropdown-contents i {
+		font-size: 100% !important;
+		line-height: 100% !important;
+	}
+	/* Navbar Footer*/
+	#page-footer .navbar {
+		display: block;
+		height: 34px;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		font-size: 1.3em;
+		line-height: 1.5em;
+		border-radius: 0;
+		border-top: 1px solid #808080;
+		z-index: 500;
+		padding: 0;
+		margin: 0;		
+	}
+	#nav-footer li.breadcrumbs {
+		width: 85%;
+	}
+	ul#nav-footer .fa-bars {
+		font-size: 1.6em;
+		line-height: 1.4em;
+	}
+	ul#nav-footer .fa-institution {
+		font-size:14px;
+		vertical-align: text-top;
+	}
+	ul#nav-footer .fa-home {
+		font-size:19px;
+		vertical-align: text-center;
+	}
+	ul#nav-footer ul.dropdown-contents i {
+		font-size: 100% !important;
+		line-height: 100% !important;
+	}
+	ul#nav-footer {
+		padding: 0px 0px 0px 8px;
+	}
+}

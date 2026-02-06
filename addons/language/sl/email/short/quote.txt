@@ -1,0 +1,13 @@
+Subject: Citat v "{TOPIC_TITLE}"
+
+Pozdravljeni, {USERNAME},
+
+"{AUTHOR_NAME}" vas je citiral v temi "{TOPIC_TITLE}" na spletni strani "{SITENAME}".
+
+Če želite videti citirano objavo, kliknite na spodnjo povezavo:
+{U_VIEW_POST}
+
+Če ne želite več prejemati citiranih odgovorov, prosimo posodobite vaše nastavitve obvestil tukaj:
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

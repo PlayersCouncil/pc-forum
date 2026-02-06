@@ -1,0 +1,15 @@
+Subject: Prijava zaključena - "{SUBJECT}"
+
+Poštovanje {USERNAME},
+
+ova obavijest ti je stigla zbog prijave privatne poruke "{SUBJECT}" [autora/ice "{AUTHOR_NAME}"] na forumu "{SITENAME}".
+
+Prijavu je obradio/la moderator(ica)/administrator(ica) i zaključio/la ju.
+
+Ako imaš daljnjih pitanja vezanih uz nju - kontaktiraj {CLOSER_NAME} privatnom porukom.
+
+Poruku možeš vidjeti klikom na sljedeći link: {U_VIEW_MESSAGE}.
+
+Ova obavijest ti je stigla jer si izabrao/la opciju obavješćivanja o predmetnom. Ukoliko više ne želiš primati obavijesti o predmetnom, promijeni u svom Profilu postavke o obavješćivanju vezane na predmetno.
+
+{EMAIL_SIG}

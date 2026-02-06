@@ -1,0 +1,546 @@
+
+/* Content container styles
+----------------------------------------*/
+.logo-image-wrapper{
+	width: 100%;
+	position: relative;
+	display: block;
+	margin-bottom: 14px;
+	margin-top: 18px;
+}
+
+.logo-header {
+	width: 100%;
+}
+
+@font-face {
+    font-family: Mason;
+    src: url("./font/Mason Regular.ttf");
+}
+
+.copyright a:link		{ color: #333333; }
+.copyright a:visited	{ color: #333333; }
+.copyright a:hover		{ color: #ecdfd6; }
+.copyright a:active		{ color: #333333; }
+
+div.rules a{
+    color: #222222;
+}
+
+/* font icon */
+.fa-gears::before, .fa-cogs::before {
+	color: #e36363;
+}
+
+.fa-legal::before, .fa-gavel::before {
+	color: #9AB4F5;
+}
+
+.fa-chevron-circle-up::before {
+	color: #4B4A46;
+}
+
+.fa-file::before {
+	color: #eab751;
+}
+
+.fa-external-link-square::before {
+	color: #4B4A46;
+}
+
+.fa-info::before {
+	color: #71a6c5;
+}
+
+.fa-remove::before, .fa-close::before, .fa-times::before {
+	color: #ac1919;
+}
+
+.fa-exclamation::before {
+	color: #eb2c2c;
+}
+
+.fa-pencil::before {
+	color: #2F2F2F;
+}
+
+.fa-quote-left::before {
+	color: #2F2F2F;
+}
+
+.fa-file-o::before {
+	color: #4D462C;
+}
+
+.fa-check-circle:before {
+	color: #6F6963;
+}
+
+.cc-color-override--1687565279.cc-window {
+	background-color: #635C56 !important;
+	color: #fafafa !important;
+}
+
+.cc-window.cc-banner {
+	flex-direction: row;
+	padding: 0.3em 1.8em !important;
+	width: 100%;
+}
+
+.signature a, .signature a:hover {
+	border: none;
+	text-decoration: none;
+}
+
+.post_profile_box_content {
+	background-image: url("./images/gradient.jpg");
+	color: #D8CFBC;
+	margin-left: 18px;
+	margin-right: 18px;
+	clear: both;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.cats_content{
+	color: #D8CFBC;
+	margin-left: 18px;
+	margin-right: 18px;
+	clear: both;
+	padding: 0px;
+	overflow: hidden;
+	padding: 0px;
+}
+
+.post_box_content {
+	color: #D8CFBC;
+	margin-left: 18px;
+	margin-right: 18px;
+	clear: both;
+	padding: 0px;
+	overflow: hidden;
+	padding: 5px 5px 5px 5px;
+	background-image: url("./images/gradient.jpg");
+}
+
+.post_profile_box2_content {
+	color: #D8CFBC;
+	margin-left: 18px;
+	margin-right: 18px;
+	clear: both;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.index_online_box_content {
+	color: #D8CFBC;
+	margin-left: 18px;
+	margin-right: 18px;
+	clear: both;
+	padding: 0px;
+	overflow:hidden;
+	padding: 5px 5px 5px 5px;
+}
+/* ================================================================================ */
+/* padding for box texts ========================================================== */
+.post_profile_box_text {
+	padding-top: 2px;
+	font-weight: bold;
+}
+
+.cats_text {
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ECDFD6;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.post_profile_box2_text {
+	padding-top: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* ================================================================================ */
+/* category topline cells ================================== */
+.cats_topline_block {
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	clear: both;
+}
+
+.cats_topline {
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 57px;
+	padding: 0px;
+	margin: -57px 0px 0px 0px;
+	text-align: center;
+	clear: both;
+}
+
+.cats_topline-l {
+	background-image: url("./images/cats/top-left.gif");
+	background-repeat: no-repeat;
+	height: 57px;
+	float: left;
+	width: 150px;
+	padding: 0px;
+}
+
+.cats_topline-m {
+	background-image: url("./images/cats/top-mid.gif");
+	height: 57px;
+	margin: 0px 150px 0px 150px;
+	width: auto;
+	padding: 0px;
+}
+
+.cats_topline-r {
+	background-image: url("./images/cats/top-right.gif");
+	background-repeat: no-repeat;
+	height: 57px;
+	float: right;
+	margin-top: -57px;
+	width: 150px;
+	padding: 0px;
+}
+
+/* post box base cells ================================== */
+.post_box_base_block {
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	clear: both;
+}
+
+.post_box_base {
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 18px;
+	padding: 0px;
+	margin: -18px 0px 0px 0px;
+	text-align: center;
+	clear: both;
+}
+
+.post_box_base-l {
+	background-image: url("./images/postbox/base-left.gif");
+	background-repeat: no-repeat;
+	height: 18px;
+	float: left;
+	width: 19px;
+	padding: 0px;
+}
+
+.post_box_base-m {
+	background-image: url("./images/postbox/base-mid.gif");
+	height: 18px;
+	margin: 0px 19px 0px 19px;
+	width: auto;
+	padding: 0px;
+}
+
+.post_box_base-r {
+	background-image: url("./images/postbox/base-right.gif");
+	background-repeat: no-repeat;
+	height: 18px;
+	float: right;
+	margin-top: -18px;
+	width: 19px;
+	padding: 0px;
+}
+
+/* ================================================================================ */
+/* post box Border Frame cells ================================== */
+.post_box_border_block {
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding: 0px;
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+	clear: both;
+}
+
+.post_box_borderleft {
+	background-image: url("./images/postbox/border-left.gif");
+	background-repeat: repeat-y;
+	background-position: left;
+}
+
+.post_box_borderright {
+	background-image: url("./images/postbox/border-right.gif");
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+/* ================================================================================ */
+/* post box topline cells ================================== */
+.post_box_topline_block {
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	clear: both;
+}
+
+.post_box_topline {
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 18px;
+	padding: 0px;
+	margin: -18px 0px 0px 0px;
+	text-align: center;
+	clear: both;
+}
+
+.post_box_topline-l {
+	background-image: url("./images/postbox/top-left.gif");
+	background-repeat: no-repeat;
+	height: 18px;
+	float: left;
+	width: 19px;
+	padding: 0px;
+}
+
+.post_box_topline-m {
+	background-image: url("./images/postbox/top-mid.gif");
+	height: 18px;
+	margin: 0px 19px 0px 19px;
+	width: auto;
+	padding: 0px;
+}
+
+.post_box_topline-r {
+	background-image: url("./images/postbox/top-right.gif");
+	background-repeat: no-repeat;
+	height: 18px;
+	float: right;
+	margin-top: -18px;
+	width: 19px;
+	padding: 0px;
+}
+
+/* ================================================================================ */
+/* category base cells ================================== */
+.cats_base_block {
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	clear: both;
+}
+
+.cats_base {
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 18px;
+	padding: 0px;
+	margin: -18px 0px 0px 0px;
+	text-align: center;
+	clear: both;
+}
+
+.cats_base-l {
+	background-image: url("./images/cats/base-left.gif");
+	background-repeat: no-repeat;
+	height: 18px;
+	float: left;
+	width: 19px;
+	padding: 0px;
+}
+
+.cats_base-m {
+	background-image: url("./images/cats/base-mid.gif");
+	height: 18px;
+	margin: 0px 19px 0px 19px;
+	width: auto;
+	padding: 0px;
+}
+
+.cats_base-r {
+	background-image: url("./images/cats/base-right.gif");
+	background-repeat: no-repeat;
+	height: 18px;
+	float: right;
+	margin-top: -18px;
+	width: 19px;
+	padding: 0px;
+}
+
+/* ================================================================================ */
+/* Content container styles
+----------------------------------------*/
+.content h2, .panel h2 {
+	color: #fff;
+	border-bottom-color: #000000;
+}
+
+.post_profile_box_content {
+	background-image: url("./images/gradient2.jpg");
+	color: #D8CFBC;
+	margin-left: 18px;
+	margin-right: 18px;
+	clear: both;
+	padding: 0px;
+	overflow: hidden;
+}
+/* ================================================================================ */
+/* post profile box base cells ================================== */
+.post_profile_box_base_block {
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	clear: both;
+}
+
+.post_profile_box_base {
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 18px;
+	padding: 0px;
+	margin: -18px 0px 0px 0px;
+	text-align: center;
+	clear: both;
+}
+
+.post_profile_box_base-l {
+	background-image: url("./images/postprofilebox/base-left.gif");
+	background-repeat: no-repeat;
+	height: 18px;
+	float: left;
+	width: 19px;
+	padding: 0px;
+}
+
+.post_profile_box_base-m {
+	background-image: url("./images/postprofilebox/base-mid.gif");
+	height: 18px;
+	margin: 0px 19px 0px 19px;
+	width: auto;
+	padding: 0px;
+}
+
+.post_profile_box_base-r {
+	background-image: url("./images/postprofilebox/base-right.gif");
+	background-repeat: no-repeat;
+	height: 18px;
+	float: right;
+	margin-top: -18px;
+	width: 19px;
+	padding: 0px;
+}
+
+/* ================================================================================ */
+/* category Border Frame cells ================================== */
+.cats_border_block {
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding: 0px;
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+	clear: both;
+}
+
+.cats_borderleft {
+	background-image: url("./images/cats/border-left.gif");
+	background-repeat: repeat-y;
+	background-position: left;
+}
+
+.cats_borderright {
+	background-image: url("./images/cats/border-right.gif");
+	background-repeat: repeat-y;
+	background-position: right;
+}
+
+/* ================================================================================ */
+/* post profile box topline cells ================================== */
+.post_profile_box_topline_block {
+	margin: 0px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	clear: both;
+}
+
+.post_profile_box_topline {
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 18px;
+	padding: 0px;
+	margin: -18px 0px 0px 0px;
+	text-align: center;
+	clear: both;
+}
+
+.post_profile_box_topline-l {
+	background-image: url("./images/postprofilebox/top-left.gif");
+	background-repeat: no-repeat;
+	height: 18px;
+	float: left;
+	width: 19px;
+	padding: 0px;
+}
+
+.post_profile_box_topline-m {
+	background-image: url("./images/postprofilebox/top-mid.gif");
+	height: 18px;
+	margin: 0px 19px 0px 19px;
+	width: auto;
+	padding: 0px;
+}
+
+.post_profile_box_topline-r {
+	background-image: url("./images/postprofilebox/top-right.gif");
+	background-repeat: no-repeat;
+	height: 18px;
+	float: right;
+	margin-top: -18px;
+	width: 19px;
+	padding: 0px;
+}
+
+/* ================================================================================ */
+/* post profile box Border Frame cells ================================== */
+.post_profile_box_border_block {
+	margin: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	padding: 0px;
+	width: 100%;
+	min-height: 100%;
+	height: 100%;
+	clear: both;
+}
+
+.post_profile_box_borderleft {
+	background-image: url("./images/postprofilebox/border-left.gif");
+	background-repeat: repeat-y;
+	background-position: left;
+}
+
+.post_profile_box_borderright {
+	background-image: url("./images/postprofilebox/border-right.gif");
+	background-repeat: repeat-y;
+	background-position:right;
+}

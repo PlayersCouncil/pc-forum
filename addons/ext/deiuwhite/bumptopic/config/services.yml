@@ -1,0 +1,7 @@
+services:
+    deiuwhite.bumptopic.listener:
+        class: deiuwhite\bumptopic\event\main_listener
+        arguments:
+            - '@language'
+        tags:
+            - { name: event.listener }

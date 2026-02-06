@@ -1,0 +1,13 @@
+Subject: Raport închis - „{POST_SUBJECT}”
+
+Salut {USERNAME},
+
+Raportul trimis de dumneavoastră pentru mesajul „{POST_SUBJECT}” scris de către „{AUTHOR_NAME}” în subiectul „{TOPIC_TITLE}” pe „{SITENAME}” a fost revizuit de un moderator sau administrator. Așadar, raportul a fost închis. Dacă aveţi alte întrebări, vă rugăm să luaţi legătura cu {CLOSER_NAME} prin intermediul unui mesaj privat.
+
+Dacă doriți să vizualizați mesaju raportat, apăsați pe legătura următoare:
+
+{U_VIEW_POST}
+
+Aţi cerut să fiţi anunţat dacă se întâmplă acest lucru, nu uitaţi că puteţi întotdeauna să alegeţi să nu fiţi anunţat dacă primiţi mesaje noi prin schimbarea setării corespunzătoare din profilul dumneavoastră.
+
+{EMAIL_SIG}

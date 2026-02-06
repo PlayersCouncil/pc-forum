@@ -1,0 +1,9 @@
+services:
+    hifikabin.rightrandomimage.listener:
+        class: hifikabin\rightrandomimage\event\listener
+        arguments:
+            - @controller.helper
+            - @template
+            - @config
+        tags:
+            - { name: event.listener }

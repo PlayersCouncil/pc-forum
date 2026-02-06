@@ -1,0 +1,38 @@
+{% if S_INCLUDE_FBC_JS %}
+{% if not definition.INCLUDED_JQUERYUI1121JS %}
+{% DEFINE INCLUDED_JQUERYUI1121JS = true %}
+{% INCLUDEJS '@phpbbservices_filterbycountry/jquery-ui-1.12.1.min.js' %}
+<script>
+	$( document ).ready(function() {
+		var countryCodes = decodeURIComponent("{{ COUNTRY_CODES }}");
+		var countryCodesArray = countryCodes.split(',');
+		$("#phpbbservices_filterbycountry_country_codes option").each(function() {
+			// Mark options in the country code options selected if they were set previously
+			if (countryCodesArray.indexOf($(this).val()) != -1) {
+				$(this).prop('selected', true);
+			}
+		});
+		// When unselect all countries button is pressed, this logic is executed
+		$("#unselect_options").on('click',(function() {
+			$("#phpbbservices_filterbycountry_country_codes option").each(function() {
+				$(this).prop('selected', false);
+			});
+		}));
+		$("#date_start, #date_end").datepicker(
+			{
+				dateFormat: 'yy-mm-dd',
+				changeYear: true
+			});
+		$("#reset_stats").on('click',(function() {
+			if (!confirm(escape("{{ lang('ACP_FBC_CONFIRM_STATS_RESET') }}")))
+			{
+				return false;
+			}
+		}));
+		$("#clear").on('click',(function() {
+			$("#phpbbservices_filterbycountry_test_ip").val('');
+		}));
+	});
+</script>
+{% endif %}
+{% endif %}

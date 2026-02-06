@@ -1,0 +1,13 @@
+services:
+    rmcgirr83.hidemyprofile.listener:
+        class: rmcgirr83\hidemyprofile\event\listener
+        arguments:
+            - '@auth'
+            - '@dbal.conn'
+            - '@language'
+            - '@request'
+            - '%tables.zebra%'
+            - '@template'
+            - '@user'
+        tags:
+            - { name: event.listener }

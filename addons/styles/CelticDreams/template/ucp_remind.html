@@ -1,0 +1,54 @@
+<!-- INCLUDE overall_header.html -->
+<div class="post_profile_box_topline_block">
+	<div class="post_profile_box_topline-l"></div>
+	<div class="post_profile_box_topline-m"><h2><div class="post_profile_box_text">{L_SEND_PASSWORD}</div></h2></div>
+	<div class="post_profile_box_topline-r"></div>
+</div>
+<div class="post_profile_box_border_block">
+	<div class="post_profile_box_borderleft">
+		<div class="post_profile_box_borderright">
+			<div class="post_profile_box_content">
+<form action="{S_PROFILE_ACTION}" method="post" id="remind">
+
+<div class="panel">
+	<div class="inner">
+
+	<div class="content">
+
+		<fieldset>
+			{% if USERNAME_REQUIRED %}
+				<p class="error">{{ lang('EMAIL_NOT_UNIQUE') }}</p>
+			{% endif %}
+		<dl>
+			<dt><label for="email">{L_EMAIL_ADDRESS}{L_COLON}</label><br /><span>{L_EMAIL_REMIND}</span></dt>
+			<dd><input class="inputbox narrow" type="email" name="email" id="email" size="25" maxlength="100" value="{{ EMAIL }}" autofocus /></dd>
+ 		</dl>
+		{% if USERNAME_REQUIRED %}
+		<dl>
+			<dt><label for="username">{L_USERNAME}{L_COLON}</label></dt>
+			<dd><input class="inputbox narrow" type="text" name="username" id="username" size="25" /></dd>
+ 		</dl>
+		{% endif %}
+		<dl>
+			<dt>&nbsp;</dt>
+			<dd>{S_HIDDEN_FIELDS}<input type="submit" name="submit" id="submit" class="button1" value="{L_SUBMIT}" tabindex="2" />&nbsp; <input type="reset" value="{L_RESET}" name="reset" class="button2" /></dd>
+		</dl>
+		{S_FORM_TOKEN}
+		</fieldset>
+	</div>
+
+	</div>
+</div>
+</form>
+
+			</div> <!-- end post profile box content -->
+		</div> <!-- end post profile box borderright -->
+	</div> <!-- end post profile box borderleft -->
+</div> <!-- end post profile box border block -->
+<div class="post_profile_box_base_block">
+	<div class="post_profile_box_base-l"></div>
+	<div class="post_profile_box_base-m"></div>
+	<div class="post_profile_box_base-r"></div>
+</div> <!-- end post profile box base block -->
+
+<!-- INCLUDE overall_footer.html -->

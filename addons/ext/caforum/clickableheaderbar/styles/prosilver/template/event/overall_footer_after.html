@@ -1,0 +1,9 @@
+<!-- Clickable headerbar -->
+<script>
+	$('.search-header').on('click', function(e){
+	e.stopPropagation();
+	});
+	$('.headerbar').on('click', function(e){
+	window.location = "<!-- IF U_SITE_HOME -->{U_SITE_HOME}<!-- ELSE -->{U_INDEX}<!-- ENDIF -->";
+	});
+</script>

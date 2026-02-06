@@ -1,0 +1,7 @@
+Subject: Deaktivacija vašega računa
+
+Pozdravljeni {USERNAME},
+
+Vaš račun "{SITENAME}" je bil deaktiviran, najverjetneje med spremembami vašega profila. Pred vpisov ga morate znova aktivirati. Ko boste to naredili, boste prejeli novo sporočilo.
+
+{EMAIL_SIG}

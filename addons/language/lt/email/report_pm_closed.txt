@@ -1,0 +1,13 @@
+Subject: Uždarytas skundas dėl asmeninės žinutės – „{SUBJECT}“
+
+Sveiki, {USERNAME},
+
+Gavote šį pranešimą, nes jūsų skundą dėl autoriaus „{AUTHOR_NAME}“ privataus pranešimo „{SUBJECT}“ konferencijoje „{SITENAME}“ peržiūrėjo moderatorius arba administratorius. Po svarstymo skundas buvo nutrauktas. Jei turite daugiau klausimų, susisiekite su {CLOSER_NAME} asmenine žinute.
+
+Jei norite peržiūrėti asmeninę žinutę, spustelėkite šią nuorodą:
+
+{U_VIEW_MESSAGE}
+
+Jei nebenorite gauti pranešimų apie uždarytus skundus dėl privačių žinučių, Asmeninėje skiltyje turite pakeisti atitinkamus pranešimų nustatymus.
+
+{EMAIL_SIG}

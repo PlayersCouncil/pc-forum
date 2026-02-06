@@ -1,0 +1,31 @@
+/*	phpBB3 Style Sheet
+	--------------------------------------------------------------
+	phpBB Extension Name:	Left Side Post Profiles
+	Extension Developer:	ForumFlair (https://forumflair.co.uk)
+	Compatible Style:		Prosilver_Dark
+	--------------------------------------------------------------
+*/
+
+/* Hide Online Image */
+.post.online, #viewprofile .online { background-image: none !important; }
+
+/* Online FA Icon */
+.lftsdpstprfls-icon::before { padding-right: 0; }
+.lftsdpstprfls-icon { font-size: 10px; }
+.user-online { color: #9CCC65; }
+
+/* Post Body & Post Profile */
+.post .postbody .attachbox { clear: right; }
+.post .postbody, .post .postprofile .avatar { float: right; }
+.post .postprofile { border-width: 0 1px 0 0; float: left; text-align: right; }
+.post .postprofile dd, .post .postprofile dt { margin-left: 0; margin-right: 8px; }
+#preview.post .postbody { float: none; }
+#topicreview .post .postbody { float: none; }
+
+/* Responsive Media Queries */
+@media (max-width: 700px) {
+	/* Post Body & Post Profile */
+	.post .postbody { float: none; }
+	.post .postprofile { border-width: 0 0 1px 0; float: none; text-align: left; }
+	.post .postprofile .avatar { float: left; }
+}

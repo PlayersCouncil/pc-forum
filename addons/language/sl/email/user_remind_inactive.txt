@@ -1,0 +1,11 @@
+Subject: Opomnik nedejavnega računa
+
+Pozdravljeni {USERNAME},
+
+Sporočamo vam, da je vaš račun "{SITENAME}", ki ste ga ustvarili dne {REGISTER_DATE}, nedejaven. Če ga želite aktivirati, kliknite spodnjo povezavo:
+
+{U_ACTIVATE}
+
+Hvala za vašo registracijo "{SITENAME}". Veselimo se vašega sodelovanja.
+
+{EMAIL_SIG}

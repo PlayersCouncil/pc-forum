@@ -1,0 +1,13 @@
+Subject: phpBB je pravilno nastavljen za pošiljanje e-pošte
+
+Pozdravljeni, {USERNAME},
+
+Čestitke. Če ste prejeli to sporočilo, je phpBB pravilno nastavljen za pošiljanje e-pošte.
+
+<!-- IF MESSAGE -->
+{MESSAGE}
+
+<!-- ENDIF -->
+V primeru, da potrebujete pomoč, obiščite phpBB podporne forume - https://www.phpbb.com/community/
+
+{EMAIL_SIG}

@@ -1,0 +1,9 @@
+Subject: Račun aktiviran
+
+Pozdravljeni, {USERNAME},
+
+Vaš uporabniški račun na spletni strani "{SITENAME}" je sedaj aktiviran - sedaj se lahko prijavite.
+
+Vaše geslo je sedaj varno shranjeno v naši bazi in ga ni mogoče pridobiti. Če ga slučajno pozabite, ga lahko dobite resetirate s pomočjo elektronske pošte, s katero ste se prijavili.
+
+{EMAIL_SIG}

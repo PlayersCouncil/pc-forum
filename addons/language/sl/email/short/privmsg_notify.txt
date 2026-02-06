@@ -1,0 +1,13 @@
+Subject: Novo zasebno sporočilo
+
+Pozdravljeni, {USERNAME},
+
+Prejeto novo zasebno sporočilo avtorja "{AUTHOR_NAME}" na forumu "{SITENAME}" s sledečim naslovom:
+{SUBJECT}
+
+Za prikaz sporočila sledite spodaj navedeni povezavi:
+{U_VIEW_MESSAGE}
+
+To sporočilo ste prejeli, ker ste prijavljeni na obveščanje o novih zasebnih sporočilih. V kolikor takih spročil ne želite več prejemati lahko obveščanje v profilu onemogočite.
+
+{EMAIL_SIG}

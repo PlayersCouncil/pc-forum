@@ -1,0 +1,13 @@
+Subject: Objava potrebuje odobritev - "{TOPIC_TITLE}"
+
+Pozdravljeni, {USERNAME},
+
+Objava "{POST_SUBJECT}" na "{SITENAME}" potrebuje odobritev.
+
+Za ogled objave sledite spodnji povezavi:
+{U_VIEW_POST}
+
+Če želite videti temo, kliknite na spodnjo povezavo:
+{U_TOPIC}
+
+{EMAIL_SIG}

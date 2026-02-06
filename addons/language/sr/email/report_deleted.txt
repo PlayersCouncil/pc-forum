@@ -1,0 +1,7 @@
+Subject: Обрисана пријава - "{POST_SUBJECT}"
+
+Поздрав {USERNAME},
+
+Пријава коју сте попунили за поруку "{POST_SUBJECT}" у "{TOPIC_TITLE}" на "{SITENAME}" је обрисана од уредника или администратора.
+
+{EMAIL_SIG}

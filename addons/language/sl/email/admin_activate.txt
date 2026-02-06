@@ -1,0 +1,13 @@
+Subject: Aktivacija uporabniškega računa
+
+Pozdravljeni,
+
+Uporabniški račun "{USERNAME}" je bil onemogočen oziroma na novo ustvarjen. Poglejte podrobnosti tega uporabniškega računa (če je potrebno) in primerno ukrepajte.
+
+Uporabite naslednjo povezavo za ogled uporabniškega profila:
+{U_USER_DETAILS}
+
+Uporabite naslednjo povezavo za aktivacijo uporabniškega računa:
+{U_ACTIVATE}
+
+{EMAIL_SIG}

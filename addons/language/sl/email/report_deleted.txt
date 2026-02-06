@@ -1,0 +1,7 @@
+Subject: Prijava izbrisana - "{POST_SUBJECT}"
+
+Pozdravljeni, {USERNAME},
+
+Vaša prijava prispevka "{POST_SUBJECT}" v temi "{TOPIC_TITLE}" na spletni strani "{SITENAME}" je bila izbrisana s strani moderatorja ali administratorja.
+
+{EMAIL_SIG}

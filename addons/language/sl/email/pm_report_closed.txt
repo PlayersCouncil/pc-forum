@@ -1,0 +1,9 @@
+Subject: Prijava zaprta - "{PM_SUBJECT}"
+
+Pozdravljeni, {USERNAME},
+
+Vaša prijava zasebnega sporočila "{PM_SUBJECT}" na spletni strani "{SITENAME}" obravnavana s strani moderatorjev oz. administratorjev. Prijava je bila po obravnavi zaprta.
+
+Če imate kakšno vprašanje, kontaktirajte uporabnika "{CLOSER_NAME}" preko zasebnih sporočil.
+
+{EMAIL_SIG}

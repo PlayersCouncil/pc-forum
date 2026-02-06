@@ -1,0 +1,105 @@
+.headerlink-preview {
+	--default-link-color: #105289;
+	display: flex;
+	flex-wrap: wrap;
+	--justify-content: start;
+	justify-content: var(--justify-content);
+	margin: 0;
+}
+
+.i-preview {
+	font-size: 1.3em;
+	cursor: help;
+}
+
+.headerlink-center {
+	--justify-content: center;
+}
+
+.headerlink-right {
+	--justify-content: end;
+}
+
+.headerlink-preview li {
+	--headerlink-text-shadow: transparent;
+	margin: 0 4px 4px;
+	list-style-type: none;
+}
+
+.headerlink-preview li a {
+	background-color: var(--headerlink-bg);
+	border-radius: 4px;
+	display: block;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	padding: 7px;
+	text-decoration: none;
+	text-shadow: 1px 1px var(--headerlink-text-shadow);
+	transition: background-color 0.2s;
+}
+
+.headerlink-preview li a:hover {
+	background-color: var(--headerlink-hover-bg);
+	text-decoration: none;
+}
+
+.headerlink-form[style*="transparent"] .headerlink-preview li a:hover {
+	--headerlink-hover-bg: var(--headerlink-bg);
+}
+
+
+.headerlink-preview li i {
+	color: var(--headerlink-icon-color);
+	display: inline-block;
+	font-size: 14px;
+}
+
+.headerlink-preview li span {
+	color: var(--headerlink-text-color);
+}
+
+.headerlink-name-legend {
+	--headerlink-text-color: var(--default-link-color);
+	--headerlink-icon-color: var(--default-link-color);
+	background-color: var(--headerlink-bg);
+	border: 1px solid #d7d7d7;
+	border-radius: 4px;
+	color: var(--headerlink-text-color);
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 7px;
+	text-shadow: 1px 1px var(--headerlink-text-shadow);
+	transition: background-color 0.25s;
+}
+
+.headerlink-name-legend:hover {
+	background-color: var(--headerlink-hover-bg);
+}
+
+.headerlink-form[style*="transparent"] .headerlink-name-legend:hover {
+	background-color: var(--headerlink-bg);
+}
+
+.headerlink-name-legend i {
+	color: var(--headerlink-icon-color);
+}
+
+.sp-original-input-container {
+	border-left: 1px solid #afaeaa;
+	border-top: 1px solid #afaeaa;
+	border-right: 1px solid #d5d5c8;
+	border-bottom: 1px solid #d5d5c8;
+}
+
+.sp-original-input-container:hover {
+	border-color: #afaeaa;
+}
+
+input.spectrum {
+	border: none;
+}
+
+#clone-link {
+	text-align: right;
+}

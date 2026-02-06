@@ -1,0 +1,9 @@
+Subject: Ponovna aktivacija vašega računa
+
+Pozdravljeni {USERNAME},
+
+Vaš račun "{SITENAME}" je bil deaktiviran, najverjetneje med spremembami vašega profila. Da bi ga ponovno aktivirali, kliknite na spodnjo povezavo:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

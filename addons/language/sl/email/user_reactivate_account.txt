@@ -1,0 +1,18 @@
+Subject: Ponovna aktivacija vašega računa "{SITENAME}"
+
+Administratorji so vam sprejeli prošnjo ponovne aktivacije računa. Vaš račun je trenutno neaktiven.
+Prosim, sledite navodilom za ponovno aktivacijo računa.
+
+Prosim, shranite pošto za lastno evidenco. Informacije vašega računa:
+
+----------------------------
+Uporabniško ime: {USERNAME}
+----------------------------
+
+Vaše geslo je bilo uspešno shranjeno v naši bazi in ne morete ga pridobiti. V primeru, če ga pozabite, ga lahko ponovno nastavite z naslovom elektronske pošte vašega računa.
+
+Prosim, pritisnite naslednjo povezavo za ponovno aktivacijo računa:
+
+{U_ACTIVATE}
+
+{EMAIL_SIG}

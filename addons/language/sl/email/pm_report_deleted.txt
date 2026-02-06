@@ -1,0 +1,7 @@
+Subject: Prijava izbrisana - "{PM_SUBJECT}"
+
+Pozdravljeni, {USERNAME},
+
+Vaša prijava zasebnega sporočila "{PM_SUBJECT}" na spletni strani "{SITENAME}" izbrisana s strani moderatorja ali administratorja.
+
+{EMAIL_SIG}

@@ -1,0 +1,13 @@
+Subject: phpBB yra sukonfigūruotas siųsti email pranešimus
+
+Sveiki, {USERNAME},
+
+Sveikiname! Jei gavote šį laišką, phpBB yra tinkamai sukonfigūruotas siųsti email pranešimus.
+
+<!-- IF MESSAGE -->
+{MESSAGE}
+
+<!-- ENDIF -->
+Jei reikia pagalbos, apsilankykite oficialiuose phpBB palaikymo forumuose - https://www.phpbb.com/
+
+{EMAIL_SIG}

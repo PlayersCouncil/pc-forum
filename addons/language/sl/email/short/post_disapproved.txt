@@ -1,0 +1,11 @@
+Subject: Vaše sporočilo je bilo zavrnjeno - "{POST_SUBJECT}"
+
+Pozdravljeni, {USERNAME},
+
+Vaš prispevek "{POST_SUBJECT}" na spletni strani "{SITENAME}" je bil zavrnjen s strani moderatorja oz. administratorja.
+
+Razlogi za zavrnitev:
+
+{REASON}
+
+{EMAIL_SIG}

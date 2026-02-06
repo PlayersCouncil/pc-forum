@@ -1,0 +1,13 @@
+Subject: Moderavimo eilėje esantis pranešimas – „{TOPIC_TITLE}“
+
+Sveiki, {USERNAME},
+
+Gavote šį pranešimą, nes pranešimą „{POST_SUBJECT}“ konferencijoje „{SITENAME}“ reikia patvirtinti.
+
+Jei norite peržiūrėti pranešimą, spustelėkite šią nuorodą:
+{U_VIEW_POST}
+
+Jei norite peržiūrėti temą, spustelėkite šią nuorodą:
+{U_TOPIC}
+
+{EMAIL_SIG}

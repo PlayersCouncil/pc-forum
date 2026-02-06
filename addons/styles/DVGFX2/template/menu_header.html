@@ -1,0 +1,23 @@
+	<ul id="navmenu">
+		<li class="first">{% if U_SITE_HOME %}<a href="{{ U_SITE_HOME }}" title="{{ L_SITE_HOME }}">{{ L_SITE_HOME }}</a>{% else %}<a href="{{ U_INDEX }}" title="{{ L_INDEX }}">{{ L_INDEX }}</a>{% endif %}</li>
+		{% if U_SITE_HOME %}<li><a href="{{ U_INDEX }}" title="{{ L_INDEX }}">{{ L_INDEX }}</a></li>{% endif %}
+		<li><a href="{{ U_FAQ }}" title="{{ lang('FAQ_EXPLAIN') }}">{{ lang('FAQ') }}</a></li>
+		{% if S_DISPLAY_SEARCH %}<li><a href="{{ U_SEARCH }}" title="{{ lang('SEARCH_ADV_EXPLAIN') }}">{{ lang('SEARCH') }}</a></li>{% endif %}
+		{% if not S_IS_BOT and S_DISPLAY_MEMBERLIST %}<li><a href="{{ U_MEMBERLIST }}" title="{{ lang('MEMBERLIST') }}">{{ lang('MEMBERLIST') }}</a></li>{% endif %}
+		{% if S_REGISTERED_USER %}
+			{% if S_DISPLAY_PM %}
+				<li>
+					{% if S_USER_UNREAD_PRIVMSG %}
+						<a href="{{ U_PRIVATEMSGS }}" title="{{ lang('UNREAD_MESSAGES') }}">{{ lang('UNREAD_MESSAGES') }}&nbsp;[{{ S_USER_UNREAD_PRIVMSG }}]</a>
+					{% else %}
+						<a href="{{ U_PRIVATEMSGS }}" title="{{ lang('PRIVATE_MESSAGES') }}">{{ lang('PRIVATE_MESSAGES') }}</a>
+					{% endif %}
+				</li>
+			{% endif %}
+			<li><a href="{{ U_PROFILE }}" title="{{ lang('PROFILE') }}">{{ lang('PROFILE') }}</a></li>
+		{% endif %}
+		{% if not S_IS_BOT and not S_USER_LOGGED_IN %}<li><a href="{{ U_LOGIN_LOGOUT }}" title="{{ lang('LOGIN') }}">{{ lang('LOGIN') }}</a></li>{% endif %}
+		{% if not S_USER_LOGGED_IN and S_REGISTER_ENABLED and not (S_SHOW_COPPA or S_REGISTRATION) %}
+			<li><a href="{{ U_REGISTER }}" title="{{ lang('REGISTER') }}">{{ lang('REGISTER') }}</a></li>
+		{% endif %}
+	</ul>

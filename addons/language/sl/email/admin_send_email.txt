@@ -1,0 +1,13 @@
+
+Spodnje e-sporočilo vam je poslal administrator spletne strani "{SITENAME}". Če menite, da je to sporočilo nadležna pošta, vsebuje neprimerno vsebino ali kaj žaljivega, kontaktirajte administratorja foruma na naslednji e-naslov:
+
+{CONTACT_EMAIL}
+
+Vključite celotno e-sporočilo (vključno z glavo). 
+
+Sporočilo, poslano vam sledi:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}
+
+{EMAIL_SIG}

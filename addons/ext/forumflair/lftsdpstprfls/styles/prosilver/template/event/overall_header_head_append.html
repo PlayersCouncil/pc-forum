@@ -1,0 +1,5 @@
+{% if S_CONTENT_DIRECTION eq 'ltr' %}
+	{% INCLUDECSS '@forumflair_lftsdpstprfls/lftsdpstprfls.css' %}
+{% elseif S_CONTENT_DIRECTION eq 'rtl' %}
+	{% INCLUDECSS '@forumflair_lftsdpstprfls/lftsdpstprfls_rtl.css' %}
+{% endif %}

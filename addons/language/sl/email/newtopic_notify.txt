@@ -1,0 +1,15 @@
+Subject: Nova tema v "{FORUM_NAME}"
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
+
+Pozdravljeni, {USERNAME},
+
+Forum "{FORUM_NAME}" ima novo temo "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' --> avtorja {AUTHOR_NAME}<!-- ENDIF --> odkar ste nazadnje obiskali "{SITENAME}". Sporočil o novih temah ne boste dobivali, dokler ne obiščete foruma.
+{U_FORUM}
+
+Če želite videti novo temo, kliknite spodnjo povezavo:
+{U_TOPIC}
+
+Če ne želite več prejemati obvestil o novih temah na forumu, kliknite na spodnjo povezavo:
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

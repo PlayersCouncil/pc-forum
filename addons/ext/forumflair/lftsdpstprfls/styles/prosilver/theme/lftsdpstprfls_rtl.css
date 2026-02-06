@@ -1,0 +1,45 @@
+/*	phpBB3 Style Sheet
+	--------------------------------------------------------------
+	phpBB Extension Name:	Left Side Post Profiles
+	Extension Developer:	ForumFlair (https://forumflair.co.uk)
+	Compatible Style:		Prosilver
+	--------------------------------------------------------------
+*/
+
+/* Hide Online Image */
+.rtl .post.online, #viewprofile .online { background-image: none; }
+
+/* Online FA Icon */
+.rtl .lftsdpstprfls-icon::before { padding-right: 0; }
+.rtl .lftsdpstprfls-icon { font-size: 10px; }
+.rtl .user-online { color: #1ACC16; }
+
+/* Post Body & Post Profile */
+.rtl .post .postbody .attachbox { clear: left; }
+.rtl .post .postbody, .rtl .post .postprofile .avatar { float: left; }
+.rtl .post .postprofile { border-width: 0 0 0 1px; float: right; text-align: left; }
+.rtl .post .postprofile dd, .rtl .post .postprofile dt { margin-left: 8px; margin-right: 0; }
+.rtl #preview.post .postbody { float: none; }
+
+/* Prosilver RTL Bug Fixes */
+/* Icon padding bug: a mistake in the prosilver bidi.css style sheet doesn't remove the padding */
+.rtl .lftsdpstprfls-icon.icon { padding: 0; }
+/* PM post profile border bug: css in the prosilver bidi.css style sheet requires a new border and border colour adding */
+.rtl .pm .postprofile { border-left: 1px solid transparent; border-left-color: #DDDDDD; }
+/* These can be removed when the mistakes in the prosilver bidi.css file are fixed */
+
+/* Responsive CSS */
+@media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
+	.rtl .post .postbody { float: none; }
+	.rtl .post .postprofile { border-width: 0 0 1px 0; float: none; text-align: right; }
+	.rtl .post .postprofile .avatar { float: right; }
+}
+
+/* Prosilver RTL Bug Fixes */
+@media (min-width: 701px) {
+	/* Search page bug: if the screen is minimized to 800px a big gap appears above the postbody */
+	.rtl .postbody { margin-left: 0; margin-right: 0; }
+	/* Post review page / PM review page bug: quote button on the review page is not in the correct position */
+	.rtl .topicreview .postbody { float: none; }
+}
+/* These can be removed when the mistakes in the prosilver bidi.css file are fixed */

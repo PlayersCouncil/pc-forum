@@ -1,0 +1,42 @@
+<!-- INCLUDE overall_header.html -->
+
+<h1>{L_ACP_TGT_TITLE}</h1>
+
+<p>{L_ACP_TGT_VERSION}{L_COLON} {TGT_TRANSLATOR_VERSION}<br>{L_ACP_TGT_CREDITS}</p>
+
+<p>{L_ACP_TGT_DONATE_EXPLAIN} {L_ACP_TGT_DONATE}</p>
+
+<form id="acp_board" method="post" action="{U_ACTION}">
+	<fieldset>
+	<legend>{L_ACP_TGT_SETTINGS}</legend>
+		<dl>
+			<dt><label for="tgt_translator_enable">{L_ACP_TGT_ENABLE}{L_COLON}</label><br />{L_ACP_TGT_ENABLE_EXPLAIN}</dt>
+			<dd><input type="radio" class="radio" name="tgt_translator_enable" value="1" <!-- IF TGT_TRANSLATOR_ENABLE -->checked="checked"<!-- ENDIF -->/> {L_YES} &nbsp;
+				<input type="radio" class="radio" name="tgt_translator_enable" value="0" <!-- IF not TGT_TRANSLATOR_ENABLE -->checked="checked"<!-- ENDIF --> /> {L_NO}</dd>
+		</dl>
+		<dl>
+			<dt><label for="tgt_translator_madre">{L_ACP_TGT_MADRELANG}{L_COLON}</label><br />{L_ACP_TGT_MADRELANG_EXPLAIN}</dt>
+			<dd><input type="text" id="tgt_translator_madre" size="20" maxlength="50" name="tgt_translator_madre" value="{TGT_TRANSLATOR_MADRE}" /></dd>
+		</dl>
+		<dl>
+			<dt><label for="tgt_codetongue">{L_ACP_TGT_CHOICETONGUE}{L_COLON}</label><br />{L_ACP_TGT_CHOICETONGUE_EXPLAIN}</dt>
+			<dd><input type="text" id="tgt_codetongue" size="20" maxlength="50" name="tgt_codetongue" value="{TGT_CODETONGUE}" /></dd>
+		</dl>
+		<dl>
+			<dt><label for="tgt_codecolors">{L_ACP_TGT_CHOICECOLORS}{L_COLON}</label><br />{L_ACP_TGT_CHOICECOLORS_EXPLAIN}</dt>
+		    <dd># <input type="text" id="tgt_codecolors" size="10" maxlength="20" name="tgt_codecolors" value="{TGT_CODECOLORS}" /></dd>
+		</dl>
+	</fieldset>
+		
+	<fieldset>
+<legend>{L_ACP_SUBMIT_CHANGES}</legend>
+		<p class="submit-buttons">
+			<input class="button1" type="submit" id="submit" name="submit" value="{L_SUBMIT}" />&nbsp;
+			<input class="button2" type="reset" id="reset" name="reset" value="{L_RESET}" />
+		</p>
+
+		{S_FORM_TOKEN}
+	</fieldset>
+</form>
+
+<!-- INCLUDE overall_footer.html -->

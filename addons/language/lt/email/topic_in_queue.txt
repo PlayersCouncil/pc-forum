@@ -1,0 +1,13 @@
+Subject: Tema laukia moderacijos eilėje – „{TOPIC_TITLE}“
+
+Sveiki, {USERNAME},
+
+Gavote šį pranešimą, nes temą „{TOPIC_TITLE}“ svetainėje „{SITENAME}“ reikia patvirtinti.
+
+Jei norite peržiūrėti temą, spustelėkite šią nuorodą:
+{U_VIEW_TOPIC}
+
+Jei norite peržiūrėti forumą, spustelėkite šią nuorodą:
+{U_FORUM}
+
+{EMAIL_SIG}

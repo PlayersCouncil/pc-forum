@@ -1,0 +1,20 @@
+Subject: Notificare de răspuns la subiectul - „{TOPIC_TITLE}”
+Nu mai urmăriți: <{U_STOP_WATCHING_TOPIC}>
+
+Salut {USERNAME},
+
+În subiectul "{TOPIC_TITLE}" a fost scris un răspuns<!-- IF AUTHOR_NAME != '' --> de către {AUTHOR_NAME}<!-- ENDIF --> de la ultima dumneavoastră vizită la "{SITENAME}". Nu vă vom mai trimite notificări până nu vizitaţi subiectul.
+
+Dacă doriţi să vizualizaţi mesajele scrise de la ultima dumneavoastră vizită, urmaţi legătura de mai jos:
+{U_NEWEST_POST}
+
+Dacă doriţi să vizualizaţi subiectul, urmaţi legătura de mai jos:
+{U_TOPIC}
+
+Dacă doriţi să vizualizaţi forumul, urmaţi legătura de mai jos:
+{U_FORUM}
+
+Dacă nu mai doriţi să urmăriţi acest subiect, legătura de mai jos:
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

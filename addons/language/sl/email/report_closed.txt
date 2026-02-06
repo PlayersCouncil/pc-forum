@@ -1,0 +1,13 @@
+Subject: Prijava zaprta - "{POST_SUBJECT}"
+
+Pozdravljeni, {USERNAME},
+
+Vaša prijava prispevka "{POST_SUBJECT}" uporabnika "{AUTHOR_NAME}" v temi "{TOPIC_TITLE}" na spletni strani "{SITENAME}" je bila obravnavana s strani moderatorjev oz. administratorjev. Prijava je bila po obravnavi zaprta. Če imate kakšno vprašanje, kontaktirajte uporabnika "{CLOSER_NAME}" preko zasebnih sporočil.
+
+Svojo prijavljeno objavo si lahko ogledate s klikom na naslednjo povezavo:
+
+{U_VIEW_POST}
+
+Zahtevali ste, da ste obveščeni o tem dogodku, ne pozabite, da se lahko kadar koli odločite, da ne boste obveščeni o zaprtih poročilih prispevkov, tako da spremenite ustrezno nastavitev v svojem profilu.
+
+{EMAIL_SIG}

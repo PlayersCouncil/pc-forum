@@ -1,0 +1,16 @@
+<!-- IF RIGHTRANDOMIMAGE_ENABLE -->
+    <div id="header-image" class="search-box rightside responsive-hide">
+        <script type="text/javascript">
+            var total_images = {RIGHTRANDOMIMAGE_NUMBER};
+            var random_number = Math.floor((Math.random()*total_images));
+            var random_img = new Array();
+                random_img[0] = '\<a href\=\"{RIGHTRANDOMIMAGE_IMAGE_LINK_1}\"\>\<img style\=\"border:none; max-width:{RIGHTRANDOMIMAGE_RESIZE}px\" src\=\"{RIGHTRANDOMIMAGE_IMAGE_URL_1}\" class\=\"random\"\>\<\/a/\>';
+                random_img[1] = '\<a href\=\"{RIGHTRANDOMIMAGE_IMAGE_LINK_2}\"\>\<img style\=\"border:none; max-width:{RIGHTRANDOMIMAGE_RESIZE}px\" src\=\"{RIGHTRANDOMIMAGE_IMAGE_URL_2}\" class\=\"random\"\>\<\/a/\>';
+                random_img[2] = '\<a href\=\"{RIGHTRANDOMIMAGE_IMAGE_LINK_3}\"\>\<img style\=\"border:none; max-width:{RIGHTRANDOMIMAGE_RESIZE}px\" src\=\"{RIGHTRANDOMIMAGE_IMAGE_URL_3}\" class\=\"random\"\>\<\/a/\>';
+                random_img[3] = '\<a href\=\"{RIGHTRANDOMIMAGE_IMAGE_LINK_4}\"\>\<img style\=\"border:none; max-width:{RIGHTRANDOMIMAGE_RESIZE}px\" src\=\"{RIGHTRANDOMIMAGE_IMAGE_URL_4}\" class\=\"random\"\>\<\/a/\>';
+                random_img[4] = '\<a href\=\"{RIGHTRANDOMIMAGE_IMAGE_LINK_5}\"\>\<img style\=\"border:none; max-width:{RIGHTRANDOMIMAGE_RESIZE}px\" src\=\"{RIGHTRANDOMIMAGE_IMAGE_URL_5}\" class\=\"random\"\>\<\/a/\>';
+                random_img[5] = '\<a href\=\"{RIGHTRANDOMIMAGE_IMAGE_LINK_6}\"\>\<img style\=\"border:none; max-width:{RIGHTRANDOMIMAGE_RESIZE}px\" src\=\"{RIGHTRANDOMIMAGE_IMAGE_URL_6}\" class\=\"random\"\>\<\/a/\>';
+            document.write(random_img[random_number]);
+        </script>
+    </div>
+<!-- ENDIF -->

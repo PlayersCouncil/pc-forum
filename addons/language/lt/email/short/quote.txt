@@ -1,0 +1,13 @@
+Subject: Jūs buvote cituojamas temoje – „{TOPIC_TITLE}“
+
+Sveiki, {USERNAME},
+
+Gavote šį pranešimą, nes naudotojas „{AUTHOR_NAME}“ citavo jus temoje „{TOPIC_TITLE}“ forume „{SITENAME}“. Norėdami peržiūrėti pranešimą, galite sekti nuorodą.
+
+Jei norite peržiūrėti pranešimą, spustelėkite šią nuorodą:
+{U_VIEW_POST}
+
+Jei nebenorite gauti pranešimų apie atsakymus, kuriuose jus pacitavo, pakeiskite pranešimų nustatymus:
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

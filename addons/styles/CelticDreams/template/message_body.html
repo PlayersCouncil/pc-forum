@@ -1,0 +1,43 @@
+<!-- IF S_SIMPLE_MESSAGE -->
+	<!-- INCLUDE simple_header.html -->
+<!-- ELSE -->
+	<!-- INCLUDE overall_header.html -->
+<!-- ENDIF -->
+<div class="post_box_topline_block">
+	<div class="post_box_topline-l"></div>
+	<div class="post_box_topline-m"></div>
+	<div class="post_box_topline-r"></div>
+</div>
+<div class="post_box_border_block">
+	<div class="post_box_borderleft">
+		<div class="post_box_borderright">
+			<div class="post_box_content">
+
+<div class="panel" id="message">
+	<div class="inner">
+	<h2 class="message-title">{MESSAGE_TITLE}</h2>
+	<p>{MESSAGE_TEXT}</p>
+	<!-- IF SCRIPT_NAME == "search" and not S_BOARD_DISABLED and not S_NO_SEARCH and L_RETURN_TO_SEARCH_ADV -->
+		<p>
+			<a href="{U_SEARCH}" class="arrow-{S_CONTENT_FLOW_BEGIN}" accesskey="r">
+				<i class="icon fa-angle-{S_CONTENT_FLOW_BEGIN} fa-fw icon-black" aria-hidden="true"></i><span>{L_GO_TO_SEARCH_ADV}</span>
+			</a>
+		</p>
+	<!-- ENDIF -->
+	</div>
+</div>
+
+			</div> <!-- end post box content -->
+		</div> <!-- end post box border right -->
+	</div> <!-- end post box border left -->
+</div> <!-- end post box border block -->
+<div class="post_box_base_block">
+	<div class="post_box_base-l"></div>
+	<div class="post_box_base-m"></div>
+	<div class="post_box_base-r"></div>
+</div> <!-- end post box base block -->
+<!-- IF S_SIMPLE_MESSAGE -->
+	<!-- INCLUDE simple_footer.html -->
+<!-- ELSE -->
+	<!-- INCLUDE overall_footer.html -->
+<!-- ENDIF -->

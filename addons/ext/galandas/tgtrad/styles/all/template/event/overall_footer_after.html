@@ -1,0 +1,12 @@
+﻿<script type="text/javascript">
+// <![CDATA[
+$(document).ready(function(){
+	//Hide (Collapse) the toggle containers on load
+	$(".togglebox").hide(); 
+	//Slide up and down on click
+	$("h3").click(function(){
+		$(this).next(".togglebox").slideToggle("slow");
+	});
+});
+// ]]>
+</script>

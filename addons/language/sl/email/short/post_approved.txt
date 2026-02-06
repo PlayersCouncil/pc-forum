@@ -1,0 +1,13 @@
+Subject: Objava je bila sprejeta - "{POST_SUBJECT}"
+
+Pozdravljeni {USERNAME},
+
+Vaša objava "{POST_SUBJECT}" na spletni strani "{SITENAME}" je odobrena s strani moderatorja oz. administratorja.
+
+Če želite videti objavo, kliknite naslednjo povezavo:
+{U_VIEW_POST}
+
+Če želite videti temo, kliknite naslednjo povezavo:
+{U_VIEW_TOPIC}
+
+{EMAIL_SIG}

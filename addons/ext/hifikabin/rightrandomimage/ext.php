@@ -1,0 +1,35 @@
+<?php
+/**
+*
+* @package phpBB Extension - Right Random Image
+* @copyright (c) 2015 HiFiKabin
+* @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+*
+*/
+
+namespace hifikabin\rightrandomimage;
+
+/**
+* Extension class for custom enable/disable/purge actions
+*/
+class ext extends \phpbb\extension\base
+{
+	/**
+	 * Enable extension if phpBB version requirement is met
+	 *
+	 * @return bool
+	 * @access public
+	 */
+	public function is_enableable()
+	{
+		$enableable = phpbb_version_compare(PHPBB_VERSION, '3.1.4@dev', '>=') && phpbb_version_compare(PHPBB_VERSION, '3.2.0@dev', '<');
+		if (!$enableable)
+		{
+			$user = $this->container->get('user');
+			$user->add_lang_ext('hifikabin/rightrandomimage', 'info_acp_rightrandomimage');
+			trigger_error($user->lang('RIGHTRSANDOMIMAGE_REQUIRE_3.1.4'), E_USER_WARNING);
+		}
+
+		return true;
+	}
+}

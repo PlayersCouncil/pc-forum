@@ -1,0 +1,21 @@
+Subject: Dobrodošli na strani "{SITENAME}"
+
+{WELCOME_MSG}
+
+Shranite si to sporočilo za evidenco. Vaši uporabniški podatki so:
+
+----------------------------
+Uporabniško ime: {USERNAME}
+
+Pot do strani: {U_BOARD}
+----------------------------
+
+Prosimo sledite spodnji povezavi za aktivacijo vašega računa:
+
+{U_ACTIVATE}
+
+Vaše geslo je varno shranjeno v naši podatkovni zbirki in se ga ne da pridobiti. V slučaju, da geslo pozabite, ga lahko ponastavite z navedbo vašega elektronskega naslova in ustreznim uporabniškim imenom.
+
+Zahvaljujemo se za vašo registracijo.
+
+{EMAIL_SIG}

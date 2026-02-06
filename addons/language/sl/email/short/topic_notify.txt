@@ -1,0 +1,13 @@
+Subject: Nov prispevek v "{TOPIC_TITLE}"
+
+Pozdravljeni, {USERNAME},
+
+Tema "{TOPIC_TITLE}" ima nov odgovor.<!-- IF AUTHOR_NAME != '' --> avtorja {AUTHOR_NAME}<!-- ENDIF --> od vašega zadnjega obiska spletne strani "{SITENAME}". Dokler ne boste obiskali teme, ne boste več prejemali obvestil o novih prispevkih v izbrani temi.
+
+Za ogled najnovejšega prispevka kliknite na naslednjo povezavo:
+{U_NEWEST_POST}
+
+Če ne želite več spremljati te teme naslednjo povezavo:
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

@@ -1,0 +1,19 @@
+Subject: Dobrodošli na "{SITENAME}"
+
+{WELCOME_MSG}
+
+Ohranite to e-sporočilo, saj vsebuje podatke o vašem uporabniškem računu. Vaši uporabniški podatki so naslednji:
+
+----------------------------
+Uporabniško ime: {USERNAME}
+
+Spletni naslov (URL): {U_BOARD}
+----------------------------
+
+Vaš uporabniški račun je trenutno še onemogočen. Preden se lahko prijavite, ga mora potrditi administrator. Takrat boste o tem obveščeni prek e-pošte.
+
+Vaše geslo je sedaj varno shranjeno v naši bazi in ga ni mogoče pridobiti. Če ga slučajno pozabite, ga lahko dobite resetirate s pomočjo elektronske pošte, s katero ste se prijavili.
+
+Hvala vam za registracijo.
+
+{EMAIL_SIG}

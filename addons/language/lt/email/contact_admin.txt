@@ -1,0 +1,23 @@
+
+Sveiki, {TO_USERNAME},
+
+Šis pranešimas buvo išsiųstas naudojant administracijos kontaktų puslapį svetainėje „{SITENAME}“.
+
+<!-- IF S_IS_REGISTERED -->
+Pranešimas buvo išsiųstas iš svetainėje esančios paskyros.
+Vartotojo vardas: {FROM_USERNAME}
+Elektroninio pašto adresas: {FROM_EMAIL_ADDRESS}
+IP adresas: {FROM_IP_ADDRESS}
+Profilis: {U_FROM_PROFILE}
+<!-- ELSE -->
+Pranešimą atsiuntė svečias, kuris paliko šią kontaktinę informaciją:
+Vardas: {FROM_USERNAME}
+Elektroninio pašto adresas: {FROM_EMAIL_ADDRESS}
+IP adresas: {FROM_IP_ADDRESS}
+<!-- ENDIF -->
+
+
+Išsiųsta žinutė
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+{MESSAGE}

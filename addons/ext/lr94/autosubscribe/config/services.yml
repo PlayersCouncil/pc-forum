@@ -1,0 +1,10 @@
+services:
+    lr94.autosubscribe.listener:
+        class: lr94\autosubscribe\event\main_listener
+        arguments:
+            - '@dbal.conn'
+            - '@user'
+            - '@request'
+            - '@template'
+        tags:
+            - { name: event.listener }
