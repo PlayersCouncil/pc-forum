@@ -13,6 +13,9 @@ RUN apt-get update && apt-get install -y \
 # Enable Apache modules
 RUN a2enmod rewrite remoteip
 
+# Use custom vhost config pointing DocumentRoot to /var/www/html/phpbb
+COPY 000-default.conf /etc/apache2/sites-available/000-default.conf
+
 # Configure remoteip to trust the Docker network proxy
 RUN echo "RemoteIPHeader X-Forwarded-For\nRemoteIPTrustedProxy 172.30.0.0/16" > /etc/apache2/conf-available/remoteip.conf \
     && a2enconf remoteip
